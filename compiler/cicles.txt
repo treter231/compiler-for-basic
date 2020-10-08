@@ -1,0 +1,19 @@
+DIM n, x, a AS INTEGER
+
+n=2
+DO WHILE n < 3
+    n = n + 1
+    PRINT n
+LOOP
+
+a = 2
+IF a < 3
+THEN 
+    x = 1
+    PRINT x
+ELSE
+    x = 2
+    PRINT x
+END IF
+
+END

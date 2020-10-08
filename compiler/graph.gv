@@ -1,0 +1,83 @@
+digraph {
+	"node1" [label="TypeNode=start\ntype=unknown"]
+	"node1" -> "node2"
+	"node2" [label="TypeNode=dim\ntype=unknown"]
+	"node2" -> "node3"
+	"node3" [label="TypeNode=var\ntype=int\nlexeme=n"]
+	"node2" -> "node4"
+	"node4" [label="TypeNode=var\ntype=int\nlexeme=x"]
+	"node2" -> "node5"
+	"node5" [label="TypeNode=var\ntype=int\nlexeme=a"]
+	"node1" -> "node7"
+	"node7" [label="TypeNode=assign\ntype=unknown"]
+	"node7" -> "node6"
+	"node6" [label="TypeNode=id\ntype=unknown\nlexeme=n"]
+	"node7" -> "node8"
+	"node8" [label="TypeNode=number\ntype=unknown\nlexeme=2"]
+	"node1" -> "node9"
+	"node9" [label="TypeNode=while\ntype=unknown"]
+	"node9" -> "node10"
+	"node10" [label="TypeNode=expr\ntype=unknown"]
+	"node10" -> "node12"
+	"node12" [label="TypeNode=less\ntype=unknown"]
+	"node12" -> "node11"
+	"node11" [label="TypeNode=id\ntype=unknown\nlexeme=n"]
+	"node12" -> "node13"
+	"node13" [label="TypeNode=number\ntype=unknown\nlexeme=3"]
+	"node9" -> "node14"
+	"node14" [label="TypeNode=bodyWhile\ntype=unknown"]
+	"node14" -> "node16"
+	"node16" [label="TypeNode=assign\ntype=unknown"]
+	"node16" -> "node15"
+	"node15" [label="TypeNode=id\ntype=unknown\nlexeme=n"]
+	"node16" -> "node18"
+	"node18" [label="TypeNode=plus\ntype=unknown"]
+	"node18" -> "node17"
+	"node17" [label="TypeNode=id\ntype=unknown\nlexeme=n"]
+	"node18" -> "node19"
+	"node19" [label="TypeNode=number\ntype=unknown\nlexeme=1"]
+	"node14" -> "node20"
+	"node20" [label="TypeNode=print\ntype=unknown"]
+	"node20" -> "node21"
+	"node21" [label="TypeNode=var\ntype=unknown\nlexeme=n"]
+	"node1" -> "node23"
+	"node23" [label="TypeNode=assign\ntype=unknown"]
+	"node23" -> "node22"
+	"node22" [label="TypeNode=id\ntype=unknown\nlexeme=a"]
+	"node23" -> "node24"
+	"node24" [label="TypeNode=number\ntype=unknown\nlexeme=2"]
+	"node1" -> "node25"
+	"node25" [label="TypeNode=if\ntype=unknown"]
+	"node25" -> "node26"
+	"node26" [label="TypeNode=expr\ntype=unknown"]
+	"node26" -> "node28"
+	"node28" [label="TypeNode=less\ntype=unknown"]
+	"node28" -> "node27"
+	"node27" [label="TypeNode=id\ntype=unknown\nlexeme=a"]
+	"node28" -> "node29"
+	"node29" [label="TypeNode=number\ntype=unknown\nlexeme=3"]
+	"node25" -> "node30"
+	"node30" [label="TypeNode=then\ntype=unknown"]
+	"node30" -> "node32"
+	"node32" [label="TypeNode=assign\ntype=unknown"]
+	"node32" -> "node31"
+	"node31" [label="TypeNode=id\ntype=unknown\nlexeme=x"]
+	"node32" -> "node33"
+	"node33" [label="TypeNode=number\ntype=unknown\nlexeme=1"]
+	"node30" -> "node34"
+	"node34" [label="TypeNode=print\ntype=unknown"]
+	"node34" -> "node35"
+	"node35" [label="TypeNode=var\ntype=unknown\nlexeme=x"]
+	"node25" -> "node36"
+	"node36" [label="TypeNode=then\ntype=unknown"]
+	"node36" -> "node38"
+	"node38" [label="TypeNode=assign\ntype=unknown"]
+	"node38" -> "node37"
+	"node37" [label="TypeNode=id\ntype=unknown\nlexeme=x"]
+	"node38" -> "node39"
+	"node39" [label="TypeNode=number\ntype=unknown\nlexeme=2"]
+	"node36" -> "node40"
+	"node40" [label="TypeNode=print\ntype=unknown"]
+	"node40" -> "node41"
+	"node41" [label="TypeNode=var\ntype=unknown\nlexeme=x"]
+}

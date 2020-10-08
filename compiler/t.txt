@@ -1,0 +1,7 @@
+DIM a AS STRING
+DIM n AS INTEGER
+
+INPUT "Введите число элементов массива"; n
+PRINT a
+
+END

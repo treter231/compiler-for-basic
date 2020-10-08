@@ -1,0 +1,9 @@
+DIM n, s, f, t AS INTEGER
+
+n = 5 + 5 * 5 + (5 - 2) 
+PRINT n
+
+s = 20 / 10 + 10
+PRINT s
+
+END

@@ -1,0 +1,11 @@
+DIM myArray (10) AS INTEGER
+DIM s AS INTEGER
+
+s = myArray (3)
+PRINT s
+
+REM z = 111
+REM myArray (1) = z
+REM PRINT z
+
+END

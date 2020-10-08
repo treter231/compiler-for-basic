@@ -1,0 +1,13 @@
+DIM value, z, a AS INTEGER
+DIM jojo
+
+a = 10
+value = kub (a) 
+
+FUNCTION kub (a) 
+z = a*a*a
+PRINT z
+
+END FUNCTION
+
+END
